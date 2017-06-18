@@ -1,0 +1,74 @@
+[
+  {
+    "Producer": "Hand",
+    "Time": 0.071428571,
+    "Input": [ ],
+    "Yield": [
+      { "Resource": "RawWood", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "Drill",
+    "Time": 1.904761905,
+    "Input": [ ],
+    "Yield": [
+      { "Resource": "Coal", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Drill",
+    "Time": 1.904761905,
+    "Input": [ ],
+    "Yield": [
+      { "Resource": "IronOre", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Drill",
+    "Time": 1.904761905,
+    "Input": [ ],
+    "Yield": [
+      { "Resource": "IronOre", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Drill",
+    "Time": 1.904761905,
+    "Input": [ ],
+    "Yield": [
+      { "Resource": "CopperOre", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Drill",
+    "Time": 1.538461538,
+    "Input": [ ],
+    "Yield": [
+      { "Resource": "Stone", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Drill",
+    "Time": 3.80952381,
+    "Input": [ ],
+    "Yield": [
+      { "Resource": "UraniumOre", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Pump",
+    "Time": 0.000833333,
+    "Input": [ ],
+    "Yield": [
+      { "Resource": "Water", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Pumpjack",
+    "Time": 1,
+    "Input": [ ],
+    "Yield": [
+      { "Resource": "CrudeOil", "Count": 1 }
+    ]
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "Producer": "Assembler",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "RawWood", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "Wood", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "Furnace",
+    "Time": 3.5,
+    "Input": [
+      { "Resource": "IronOre", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "IronPlate", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Furnace",
+    "Time": 3.5,
+    "Input": [
+      { "Resource": "CopperOre", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "CopperPlate", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Furnace",
+    "Time": 17.5,
+    "Input": [
+      { "Resource": "IronPlate", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "SteelPlate", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Furnace",
+    "Time": 3.5,
+    "Input": [
+      { "Resource": "Stone", "Count": 2 }
+    ],
+    "Yield": [
+      { "Resource": "StoneBrick", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "ChemicalPlant",
+    "Time": 1,
+    "Input": [
+      { "Resource": "PetroluemGas", "Count": 30 },
+      { "Resource": "Water", "Count": 30 }
+    ],
+    "Yield": [
+      { "Resource": "Sulfur", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "ChemicalPlant",
+    "Time": 1,
+    "Input": [
+      { "Resource": "Coal", "Count": 1 },
+      { "Resource": "PetroluemGas", "Count": 20 }
+    ],
+    "Yield": [
+      { "Resource": "PlasticBar", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "ChemicalPlant",
+    "Time": 5,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 1 },
+      { "Resource": "IronPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "Battery", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "IronPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "IronStick", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "IronPlate", "Count": 2 }
+    ],
+    "Yield": [
+      { "Resource": "IronGear", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "CopperCable", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "CopperCable", "Count": 3 },
+      { "Resource": "IronPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "ElectronicCircuit", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 6,
+    "Input": [
+      { "Resource": "CopperCable", "Count": 4 },
+      { "Resource": "ElectronicCircuit", "Count": 2 },
+      { "Resource": "PlasticBar", "Count": 2 }
+    ],
+    "Yield": [
+      { "Resource": "AdvancedCircuit", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 2 },
+      { "Resource": "ElectronicCircuit", "Count": 20 },
+      { "Resource": "SulfuricAcid", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "ProcessingUnit", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "IronGear", "Count": 1 },
+      { "Resource": "Pipe", "Count": 2 },
+      { "Resource": "SteelPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "EngineUnit", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 2 },
+      { "Resource": "EngineUnit", "Count": 1 },
+      { "Resource": "Lubricant", "Count": 15 }
+    ],
+    "Yield": [
+      { "Resource": "ElectricEngineUnit", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 20,
+    "Input": [
+      { "Resource": "Battery", "Count": 2 },
+      { "Resource": "ElectricEngineUnit", "Count": 1 },
+      { "Resource": "ElectronicCircuit", "Count": 3 },
+      { "Resource": "SteelPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "FlyingRobotFrame", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 5,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 1 },
+      { "Resource": "IronGear", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "SciencePack1", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 6,
+    "Input": [
+      { "Resource": "Inserter", "Count": 1 },
+      { "Resource": "TransportBelt", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "SciencePack2", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 12,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 1 },
+      { "Resource": "ElectricDrill", "Count": 1 },
+      { "Resource": "EngineUnit", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "SciencePack3", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "Grenade", "Count": 1 },
+      { "Resource": "GunTurret", "Count": 1 },
+      { "Resource": "PiercingRounds", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "MiltarySciencePack", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 14,
+    "Input": [
+      { "Resource": "AssemblyMachine1", "Count": 1 },
+      { "Resource": "ElectricalEngineUnit", "Count": 1 },
+      { "Resource": "ElectricFurnace", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "ProductionSciencePack", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 14,
+    "Input": [
+      { "Resource": "Battery", "Count": 1 },
+      { "Resource": "CopperCable", "Count": 30 },
+      { "Resource": "ProcessingUnit", "Count": 3 },
+      { "Resource": "SpeedModule", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "HighTechSciencePack", "Count": 2 }
+    ]
+  },
+  /*{
+    "Producer": "Assembly",
+    "Time": 14,
+    "Input": [
+      { "Resource": "Battery", "Count": 1 },
+      { "Resource": "CopperCable", "Count": 30 },
+      { "Resource": "ProcessingUnit", "Count": 3 },
+      { "Resource": "SpeedModule", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "SpaceSciencePack", "Count": 2 }
+    ]
+  },*/
+  {
+    "Producer": "Assembly",
+    "Time": 1,
+    "Input": [
+      { "Resource": "SteelPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "EmptyBarrel", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "ChemicalPlant",
+    "Time": 5,
+    "Input": [
+      { "Resource": "Coal", "Count": 1 },
+      { "Resource": "Sulfur", "Count": 1 },
+      { "Resource": "Water", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "Explosives", "Count": 1 }
+    ]
+  }
+]
