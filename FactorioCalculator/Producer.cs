@@ -3,10 +3,10 @@
     public enum Producer
     {
         Assembler,
-        ChemicalPlant,
-        Drill,
         Furnace,
+        OilRefinery,
+        ChemicalPlant,
         Hand,
-        Pump
+        Rocket
     }
 }
