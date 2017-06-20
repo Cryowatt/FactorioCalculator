@@ -1,0 +1,178 @@
+[
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "IronGear", "Count": 1 },
+      { "Resource": "IronPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "Belt", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 1,
+    "Input": [
+      { "Resource": "IronPlate", "Count": 10 },
+      { "Resource": "Belt", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "UndergroundBelt", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 1,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 5 },
+      { "Resource": "IronPlate", "Count": 5 },
+      { "Resource": "Belt", "Count": 4 }
+    ],
+    "Yield": [
+      { "Resource": "Splitter", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "IronGear", "Count": 5 },
+      { "Resource": "Belt", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "FastBelt", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "IronGear", "Count": 40 },
+      { "Resource": "UndergroundBelt", "Count": 2 }
+    ],
+    "Yield": [
+      { "Resource": "FastUndergroundBelt", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 2,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 10 },
+      { "Resource": "IronGear", "Count": 10 },
+      { "Resource": "Splitter", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "FastSplitter", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "FastBelt", "Count": 1 },
+      { "Resource": "IronGear", "Count": 10 },
+      { "Resource": "Lubricant", "Count": 20 }
+    ],
+    "Yield": [
+      { "Resource": "ExpressBelt", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "FastUndergroundBelt", "Count": 2 },
+      { "Resource": "IronGear", "Count": 80 },
+      { "Resource": "Lubricant", "Count": 40 }
+    ],
+    "Yield": [
+      { "Resource": "ExpressUndergroundBelt", "Count": 2 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 2,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 10 },
+      { "Resource": "FastSplitter", "Count": 1 },
+      { "Resource": "IronGear", "Count": 10 },
+      { "Resource": "Lubricant", "Count": 80 }
+    ],
+    "Yield": [
+      { "Resource": "ExpressSplitter", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "IronGear", "Count": 1 },
+      { "Resource": "IronPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "BurnerInserter", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 1 },
+      { "Resource": "IronGear", "Count": 1 },
+      { "Resource": "IronPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "Inserter", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "Inserter", "Count": 1 },
+      { "Resource": "IronGear", "Count": 1 },
+      { "Resource": "IronPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "LongHandedInserter", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 2 },
+      { "Resource": "Inserter", "Count": 1 },
+      { "Resource": "IronPlate", "Count": 2 }
+    ],
+    "Yield": [
+      { "Resource": "FastInserter", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 1 },
+      { "Resource": "ElectronicCircuit", "Count": 15 },
+      { "Resource": "FastInserter", "Count": 1 },
+      { "Resource": "IronGear", "Count": 15 }
+    ],
+    "Yield": [
+      { "Resource": "StackInserter", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 5 },
+      { "Resource": "StackInserter", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "StackFilterInserter", "Count": 1 }
+    ]
+  }
+]

@@ -1,0 +1,115 @@
+[
+    {
+    "Producer": "OilRefinery",
+    "Time": 5,
+    "Input": [
+      { "Resource": "CrudeOil", "Count": 100 }
+    ],
+    "Yield": [
+      { "Resource": "PetroleumGas", "Count": 40 },
+      { "Resource": "HeavyOil", "Count": 30 },
+      { "Resource": "LightOil", "Count": 30 }
+    ]
+  },
+  {
+    "Producer": "OilRefinery",
+    "Time": 5,
+    "Input": [
+      { "Resource": "CrudeOil", "Count": 100 },
+      { "Resource": "Water", "Count": 50 }
+    ],
+    "Yield": [
+      { "Resource": "PetroleumGas", "Count": 55 },
+      { "Resource": "HeavyOil", "Count": 10 },
+      { "Resource": "LightOil", "Count": 45 }
+    ]
+  },
+  {
+    "Producer": "ChemicalPlant",
+    "Time": 3,
+    "Input": [
+      { "Resource": "LightOil", "Count": 30 },
+      { "Resource": "Water", "Count": 30 }
+    ],
+    "Yield": [
+      { "Resource": "PetroleumGas", "Count": 20 }
+    ]
+  },
+  {
+    "Producer": "OilRefinery",
+    "Time": 5,
+    "Input": [
+      { "Resource": "Coal", "Count": 10 },
+      { "Resource": "HeavyOil", "Count": 25 },
+      { "Resource": "Steam", "Count": 50 }
+    ],
+    "Yield": [
+      { "Resource": "PetroleumGas", "Count": 20 },
+      { "Resource": "HeavyOil", "Count": 35 },
+      { "Resource": "LightOil", "Count": 15 }
+    ]
+  },
+  {
+    "Producer": "ChemicalPlant",
+    "Time": 3,
+    "Input": [
+      { "Resource": "HeavyOil", "Count": 40 },
+      { "Resource": "Water", "Count": 30 }
+    ],
+    "Yield": [
+      { "Resource": "LightOil", "Count": 30 }
+    ]
+  },
+  {
+    "Producer": "ChemicalPlant",
+    "Time": 1,
+    "Input": [
+      { "Resource": "IronPlate", "Count": 1 },
+      { "Resource": "Sulfur", "Count": 5 },
+      { "Resource": "Water", "Count": 100 }
+    ],
+    "Yield": [
+      { "Resource": "SulfuricAcid", "Count": 50 }
+    ]
+  },
+  {
+    "Producer": "ChemicalPlant",
+    "Time": 1,
+    "Input": [
+      { "Resource": "HeavyOil", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "Lubricant", "Count": 10 }
+    ]
+  },
+  {
+    "Producer": "ChemicalPlant",
+    "Time": 3,
+    "Input": [
+      { "Resource": "HeavyOil", "Count": 20 }
+    ],
+    "Yield": [
+      { "Resource": "SolidFuel", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "ChemicalPlant",
+    "Time": 3,
+    "Input": [
+      { "Resource": "LightOil", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "SolidFuel", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "ChemicalPlant",
+    "Time": 3,
+    "Input": [
+      { "Resource": "PetroleumGas", "Count": 20 }
+    ],
+    "Yield": [
+      { "Resource": "SolidFuel", "Count": 1 }
+    ]
+  }
+]

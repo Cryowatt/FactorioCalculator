@@ -1,0 +1,14 @@
+[
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 5 },
+      { "Resource": "IronGear", "Count": 5 },
+      { "Resource": "IronPlate", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "Radar", "Count": 1 }
+    ]
+  }
+]

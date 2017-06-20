@@ -1,0 +1,80 @@
+[
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "Wood", "Count": 4 }
+    ],
+    "Yield": [
+      { "Resource": "WoodenChest", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "IronPlate", "Count": 8 }
+    ],
+    "Yield": [
+      { "Resource": "IronChest", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "SteelPlate", "Count": 8 }
+    ],
+    "Yield": [
+      { "Resource": "SteelChest", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 1 },
+      { "Resource": "ElectronicCircuit", "Count": 3 },
+      { "Resource": "SteelChest", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "ActiveProviderChest", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 1 },
+      { "Resource": "ElectronicCircuit", "Count": 3 },
+      { "Resource": "SteelChest", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "PassiveProviderChest", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 1 },
+      { "Resource": "ElectronicCircuit", "Count": 3 },
+      { "Resource": "SteelChest", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "StorageChest", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 1 },
+      { "Resource": "ElectronicCircuit", "Count": 3 },
+      { "Resource": "SteelChest", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "RequesterChest", "Count": 1 }
+    ]
+  }
+]

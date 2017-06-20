@@ -1,0 +1,61 @@
+[
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "StoneBrick", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "StoneWall", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 2 },
+      { "Resource": "SteelPlate", "Count": 2 },
+      { "Resource": "StoneWal", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "StoneWall", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 10 },
+      { "Resource": "IronGear", "Count": 10 },
+      { "Resource": "IronPlate", "Count": 20 }
+    ],
+    "Yield": [
+      { "Resource": "GunTurret", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 20,
+    "Input": [
+      { "Resource": "Battery", "Count": 12 },
+      { "Resource": "ElectronicCircuit", "Count": 20 },
+      { "Resource": "SteelPlate", "Count": 20 }
+    ],
+    "Yield": [
+      { "Resource": "LaserTurret", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 20,
+    "Input": [
+      { "Resource": "EngineUnit", "Count": 5 },
+      { "Resource": "IronGear", "Count": 15 },
+      { "Resource": "Pipe", "Count": 30 },
+      { "Resource": "SteelPlate", "Count": 30 }
+    ],
+    "Yield": [
+      { "Resource": "FlamethrowerTurret", "Count": 1 }
+    ]
+  }
+]

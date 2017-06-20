@@ -1,0 +1,128 @@
+[
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 5 },
+      { "Resource": "SteelPlate", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "Nightvision", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "Battery", "Count": 5 },
+      { "Resource": "SteelPlate", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "BatteryMK1", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "BatteryMK1", "Count": 10 },
+      { "Resource": "ProcessingUnit", "Count": 20 }
+    ],
+    "Yield": [
+      { "Resource": "BatteryMK2", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 5 },
+      { "Resource": "SteelPlate", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "EnergyShield", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "EnergyShield", "Count": 10 },
+      { "Resource": "ProcessingUnit", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "EnergyShieldMK2", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 1 },
+      { "Resource": "SolarPanel", "Count": 5 },
+      { "Resource": "SteelPlate", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "PortableSolarPanel", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "ProcessingUnit", "Count": 250 }
+    ],
+    "Yield": [
+      { "Resource": "PortableFusionReactor", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "LaserTurret", "Count": 5 },
+      { "Resource": "ProcessingUnit", "Count": 1 },
+      { "Resource": "SteelPlate", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "PersonalLaserDefense", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "LaserTurret", "Count": 10 },
+      { "Resource": "ProcessingUnit", "Count": 5 },
+      { "Resource": "SteelPlate", "Count": 20 }
+    ],
+    "Yield": [
+      { "Resource": "DischargeDefense", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "ElectricEngineUnit", "Count": 30 },
+      { "Resource": "ProcessingUnit", "Count": 10 },
+      { "Resource": "SteelPlate", "Count": 20 }
+    ],
+    "Yield": [
+      { "Resource": "Exoskeleton", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 10 },
+      { "Resource": "Battery", "Count": 45 },
+      { "Resource": "IronGear", "Count": 40 },
+      { "Resource": "SteelPlate", "Count": 20 }
+    ],
+    "Yield": [
+      { "Resource": "PersonalRoboport", "Count": 1 }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Producer": "Assembly",
+    "Time": 3,
+    "Input": [
+      { "Resource": "IronPlate", "Count": 40 }
+    ],
+    "Yield": [
+      { "Resource": "IronArmor", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 100 },
+      { "Resource": "SteelPlate", "Count": 50 }
+    ],
+    "Yield": [
+      { "Resource": "HeavyArmor", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 15,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 30 },
+      { "Resource": "SteelPlate", "Count": 50 }
+    ],
+    "Yield": [
+      { "Resource": "ModularArmor", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 25,
+    "Input": [
+      { "Resource": "EfficiencyModule3", "Count": 5 },
+      { "Resource": "ProcessingUnit", "Count": 40 },
+      { "Resource": "SpeedModule3", "Count": 5 },
+      { "Resource": "SteelPlate", "Count": 40 }
+    ],
+    "Yield": [
+      { "Resource": "PowerArmorMK2", "Count": 1 }
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "Producer": "Assembly",
+    "Time": 1,
+    "Input": [
+      { "Resource": "IronPlate", "Count": 4 }
+    ],
+    "Yield": [
+      { "Resource": "StandardRounds", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 3,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 5 },
+      { "Resource": "StandardRounds", "Count": 1 },
+      { "Resource": "SteelPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "PiercingRounds", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 3,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 2 },
+      { "Resource": "IronPlate", "Count": 2 }
+    ],
+    "Yield": [
+      { "Resource": "ShotgunShells", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 5 },
+      { "Resource": "ShotgunShells", "Count": 2 },
+      { "Resource": "SteelPlate", "Count": 2 }
+    ],
+    "Yield": [
+      { "Resource": "PiercingShells", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 1 },
+      { "Resource": "Explosives", "Count": 1 },
+      { "Resource": "IronPlate", "Count": 2 }
+    ],
+    "Yield": [
+      { "Resource": "Rocket", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 2 },
+      { "Resource": "Rocket", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "ExplosiveRocket", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "Explosives", "Count": 1 },
+      { "Resource": "PlasticBar", "Count": 2 },
+      { "Resource": "SteelPlate", "Count": 2 }
+    ],
+    "Yield": [
+      { "Resource": "CannonShell", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "Explosives", "Count": 2 },
+      { "Resource": "PlasticBar", "Count": 2 },
+      { "Resource": "SteelPlate", "Count": 2 }
+    ],
+    "Yield": [
+      { "Resource": "ExplosiveCannonShell", "Count": 1 }
+    ]
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "Producer": "Assembly",
+    "Time": 5,
+    "Input": [
+      { "Resource": "Explosives", "Count": 2 },
+      { "Resource": "SteelPlate", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "LandMine", "Count": 4 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "Coal", "Count": 10 },
+      { "Resource": "IronPlate", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "Grenade", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "Explosives", "Count": 5 },
+      { "Resource": "Grenade", "Count": 7 },
+      { "Resource": "SteelPlate", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "ClusterGrenade", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 5,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 5 },
+      { "Resource": "IronPlate", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "Pistol", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 5 },
+      { "Resource": "IronGear", "Count": 10 },
+      { "Resource": "IronPlate", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "SubmachineGun", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 10 },
+      { "Resource": "IronGear", "Count": 5 },
+      { "Resource": "IronPlate", "Count": 15 },
+      { "Resource": "Wood", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "Shotgun", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "CopperPlate", "Count": 10 },
+      { "Resource": "IronGear", "Count": 5 },
+      { "Resource": "SteelPlate", "Count": 15 },
+      { "Resource": "Wood", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "CombatShotgun", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 5 },
+      { "Resource": "IronGear", "Count": 5 },
+      { "Resource": "IronPlate", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "RocketLauncher", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "IronGear", "Count": 10 },
+      { "Resource": "SteelPlate", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "Flamethrower", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 2 },
+      { "Resource": "IronGear", "Count": 3 },
+      { "Resource": "PiecingRounds", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "DefenderCapsule", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "Coal", "Count": 10 },
+      { "Resource": "ElectronicCircuit", "Count": 3 },
+      { "Resource": "SteelPlate", "Count": 3 }
+    ],
+    "Yield": [
+      { "Resource": "PoisonCapsule", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 8,
+    "Input": [
+      { "Resource": "Coal", "Count": 5 },
+      { "Resource": "ElectronicCircuit", "Count": 2 },
+      { "Resource": "SteelPlate", "Count": 2 }
+    ],
+    "Yield": [
+      { "Resource": "SlowdownCapsule", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 15,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 3 },
+      { "Resource": "DefenderCapsule", "Count": 4 }
+    ],
+    "Yield": [
+      { "Resource": "DistractorCapsule", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 15,
+    "Input": [
+      { "Resource": "DistractorCapsule", "Count": 4 },
+      { "Resource": "SpeedModule", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "DestroyerCapsule", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "ElectronicModule", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "DischargeDefenseRemote", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "EngineUnit", "Count": 8 },
+      { "Resource": "IronPlate", "Count": 20 },
+      { "Resource": "SteelPlate", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "Car", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 10 },
+      { "Resource": "EngineUnit", "Count": 32 },
+      { "Resource": "IronGear", "Count": 15 },
+      { "Resource": "SteelPlate", "Count": 50 }
+    ],
+    "Yield": [
+      { "Resource": "Tank", "Count": 1 }
+    ]
+  }
+]

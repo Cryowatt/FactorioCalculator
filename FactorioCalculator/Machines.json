@@ -1,0 +1,84 @@
+[
+  {
+    "Producer": "Assembly",
+    "Time": 2,
+    "Input": [
+      { "Resource": "IronGear", "Count": 3 },
+      { "Resource": "IronPlate", "Count": 3 },
+      { "Resource": "StoneFurnace", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "BurnerMiningDrill", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 2,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 3 },
+      { "Resource": "IronGear", "Count": 5 },
+      { "Resource": "IronPlate", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "ElectricMiningDrill", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "Stone", "Count": 5 }
+    ],
+    "Yield": [
+      { "Resource": "StoneFurnace", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 3,
+    "Input": [
+      { "Resource": "SteelPlate", "Count": 6 },
+      { "Resource": "StoneBrick", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "SteelFurnace", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 3,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 10 },
+      { "Resource": "IronGear", "Count": 10 },
+      { "Resource": "Belt", "Count": 4 }
+    ],
+    "Yield": [
+      { "Resource": "Lab", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 15,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 20 },
+      { "Resource": "CopperCable", "Count": 10 },
+      { "Resource": "ElectronicCircuit", "Count": 20 },
+      { "Resource": "SteelPlate", "Count": 20 }
+    ],
+    "Yield": [
+      { "Resource": "Beacon", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 5 },
+      { "Resource": "IronGear", "Count": 5 },
+      { "Resource": "IronPlate", "Count": 10 }
+    ],
+    "Yield": [
+      { "Resource": "Radar", "Count": 1 }
+    ]
+  }
+]

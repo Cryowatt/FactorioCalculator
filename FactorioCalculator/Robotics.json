@@ -1,0 +1,36 @@
+[
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 2 },
+      { "Resource": "FlyingRobotFrame", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "LogisticRobot", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 0.5,
+    "Input": [
+      { "Resource": "ElectronicCircuit", "Count": 2 },
+      { "Resource": "FlyingRobotFrame", "Count": 1 }
+    ],
+    "Yield": [
+      { "Resource": "ConstructionRobot", "Count": 1 }
+    ]
+  },
+  {
+    "Producer": "Assembly",
+    "Time": 10,
+    "Input": [
+      { "Resource": "AdvancedCircuit", "Count": 45 },
+      { "Resource": "IronGear", "Count": 45 },
+      { "Resource": "SteelPlate", "Count": 45 }
+    ],
+    "Yield": [
+      { "Resource": "Roboport", "Count": 1 }
+    ]
+  }
+]
