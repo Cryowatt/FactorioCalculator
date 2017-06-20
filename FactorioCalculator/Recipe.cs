@@ -7,14 +7,16 @@ namespace FactorioCalculator
 {
     public class Recipe
     {
-        public Recipe(double time, Producer producer, Dictionary<string, double> input, Dictionary<string, double> yield)
+        public Recipe(string name, double time, Producer producer, Dictionary<string, double> input, Dictionary<string, double> yield)
         {
+            this.Name = name;
             this.Time = time;
             this.Producer = producer;
             this.Input = input;
             this.Yield = yield;
         }
 
+        public string Name { get; set; }
         public double Time { get; set; }
         public Producer Producer { get; set; }
         public Dictionary<string, double> Input { get; set; }
@@ -24,7 +26,7 @@ namespace FactorioCalculator
         {
             string inputs = string.Join(" + ", this.Input.Select(o => $"{o.Key}({o.Value})"));
             string outputs = string.Join(" + ", this.Yield.Select(o => $"{o.Key}({o.Value})"));
-            return $"[{Producer}:{Time}] {inputs} => {outputs}";
+            return $"{Name}: {inputs} =[{Producer}:{Time}]> {outputs}";
         }
     }
 }
