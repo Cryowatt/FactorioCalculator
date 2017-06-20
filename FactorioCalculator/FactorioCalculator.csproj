@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NLua_Safe" Version="1.3.2.1" />
+    <PackageReference Include="MoonSharp" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
